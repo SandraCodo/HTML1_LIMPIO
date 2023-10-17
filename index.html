@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Interes, curriculum, portfolio, contacto">
+    <meta name="description" content="HTML incorporación de audio, video y tabla">
+    <link rel="shortcut icon" href="img/portafolio.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/scale_img.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700;800&family=Work+Sans:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <!-- RELACIONAR HTML CON CSS DE ESTILOS -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- para distintos dispositivos -->
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
+    
+    <title>Portfolio</title>
+    <!-- FORMA Nª1 DE APLICAR ESTILOS INTERNA (DENTRO DEL ARCHIVO HTML) la medida px es estática, uso vw vista a los ancho responsive
+    <style>
+        h1{
+            color: rgba(22, 242, 246, 0.99);
+            font-size: 3vw;
+        }
+
+    </style>
+    -->
+</head>
+<body style=
+"background-image: url(assets/img/fondo3.jpg);
+ background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;"> 
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="header-linea"> 
+            <img class="logo" src="assets/img/logo.png" alt="">
+        </div>
+        <!-- MENU DE NAVEGACION -->
+        <nav class="header-linea">
+            
+            <a  href="#quiensoy">QUIEN SOY</a>
+            <a  href="#curriculum">CURRICULUM</a>
+            <a  href="#portfolio">PORTFOLIO</a>
+            <a  href="#contacto">CONTACTO</a>
+            <a  href="https://www.google.com" target="_blank">GOOGLE</a>
+            
+        </nav>
+    </header>
+
+    <!-- Contenido -->
+    <main>
+            
+        
+            <!-- BLOQUE 1 -->
+                   
+        <!-- BLOQUE QUIEN SOY -->    
+    
+        <section>
+            <div>
+                <h3 id="quiensoy">QUIEN SOY</h3>
+                <!-- <h3 id="quiensoy" style="margin-bottom: 20px;"><a href="^1^">QUIEN SOY</a></h3> -->
+                </div>
+            
+            <div class="contenedor">
+                
+                <div>
+                <p class="texto">Hola, soy Lala del Alamo, diseñadora gráfica con experiencia en la creación de identidades visuales, logotipos, carteles, folletos y páginas web. Mi estilo se caracteriza por la simplicidad, la alegría y la originalidad. Mi objetivo es que compartas tus momentos importantes a través del diseño Web.</p>
+                </div>   
+                <div class="txt">
+                    <img class="imagen" src="../assets/img/OTRA YO.jpeg" alt="foto"> 
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div >
+            <h3 id="curriculum">CURRICULUM</h3>
+            </div>
+            <div>
+            <h4>EDUCACIÓN</h4> 
+            
+                <!-- Areas de desarrollo con radio -->
+                <h5>Áreas de desarrollo</h5>
+
+                <input type="radio" name="app-web" id="app-web">
+                <label for="app-web">App web</label>
+
+                <input type="radio" name="datos" id="datos">
+                <label for="datos">Análisis de datos</label>
+
+                <input type="radio" name="python" id="python">
+                <label for="python">Python</label>
+            </div>
+
+            <div>
+                <!-- Tecnologias -->
+                <h5>Tecnología aplicada</h5>
+
+                <input type="checkbox" name="html" id="html">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" name="css" id="css">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" name="js" id="js">
+                <label for="js">JS</label>
+            </div>
+            
+        </section>
+        <section>
+            <h3 id="portfolio">PORTFOLIO</h3>
+            <section>
+
+                <div class="container-s3">
+                    <img src="../assets/img/mascota.jpg" alt="pez">
+                    <img src="../assets/img/hormigas.jpg" alt="hormiga">
+                    <img src="../assets/img/planta1.jpg" alt="planta">
+                    <img src="../assets/img/cca5oo18.png" alt="amor">
+                    <img src="../assets/img/copa de vino.jpg" alt="copa">
+                    <img src="../assets/img/folleto.jpeg" alt="folleto">
+                    <img src="../assets/img/OIP.jpeg" alt="identidad1">
+                    <img src="../assets/img/identidad visual.jpeg" alt="identidad2">
+                    <img src="../assets/img/mendoza.jpeg" alt="turismo">
+                    <img src="../assets/img/mendoza1.jpeg" alt="turismo1">
+                    
+                </div>
+    
+            </section>
+        </section>
+        <section>
+            <!-- Incorporar mapa y formulario-->
+            <h3 id="contacto">CONTACTO</h3>
+
+            <section id="contact">
+                <div class="box-contact-features">
+                  <i class="fas fa-map-marker-alt fa-2x"></i>
+                  <h4>Dirección</h4>
+                  <p>Las Heras, Mendoza, Argentina</p>
+                </div>
+                <div class="box-contact-features">
+                  <i class="fas fa-mobile-alt fa-2x"></i>
+                  <h4>Teléfono</h4>
+                  <p>+54 9 0261-4857778</p>
+                  
+                </div>
+                <div class="box-contact-features">
+                  <i class="fas fa-envelope fa-2x"></i>
+                  <h4>Email</h4>
+                  <p>sjdelalamo@gmail.com</p>
+                  
+                </div>
+            </section>
+           
+            <section id="contacto">
+            
+            
+                <form action="https://formspree.io/f/mrgwrrjp" method="post">
+                    <!-- Crear campos para nombre, apellido, telefono y correo eléctrinico -->
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+
+                <br>
+
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                    </div>
+                
+                <br>
+
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" name="telefono" id="telefono">
+                    </div>
+
+                <br>
+                <!-- <form action="https://formspree.io/f/{form_id}" method="post">
+                     <label for="email">Your Email</label>
+                     <input name="Email" id="email" type="email">
+                     <button type="submit">Submit</button>
+                     </form> -->
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                <br>
+                
+                    <label for="comentario"></label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su comentario"></textarea>
+                
+
+                <br>
+                <br>
+                
+                    <div>
+                        <!-- Agregar los botones para enviar (sbmit) y borrar (reset)-->
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </div>
+
+                </form>
+                <div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.4820058784026!2d-68.86050172576633!3d-32.85896417362948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e088a3d271ff3%3A0x629f6e5d98247752!2sLos%20Tilos%2C%20Las%20Heras%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1696800635518!5m2!1ses!2sar" width="460" height="345" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+    
+    <!--Pie de página  -->
+    <footer>
+        <h3 class="texto-pie">CURSO FULL STRACK</h3>
+        <br>
+        <i class="fa-brands fa-facebook" style="font-size: 1.5vw;"></i>
+        <i class="fa-brands fa-instagram" style="font-size: 1.5vw;"></i>
+        <i class="fa-brands fa-square-twitter" style="font-size: 1.5vw;"></i>
+    </footer>
+
+    <!-- Etiqueta script para agregar iconos -->
+        <script src="https://kit.fontawesome.com/055a83c8c3.js" crossorigin="anonymous"></script>>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.container-s3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 5vh; 
+    margin-bottom: 5vh;
+}
+
+.container-s3 img{
+    transition: transform 0.3s ease-in-out; /*Lento normal lento*/
+}
+
+.container-s3 img:hover{
+     transform: scale(1.2); 
+    /* Cambia el tamaño de la imagen al 120% en hover */
+}

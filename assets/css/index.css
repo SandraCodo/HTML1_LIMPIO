@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Itim" ;
+    src: url('../font/Itim/Itim-Regular.ttf');
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Raleway";
+}
+
+a:hover{
+    background-color: rgba(153, 0, 255, 0.836);
+    color: black;
+    font-weight: bold;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+.texto{
+    padding: 5vw;
+    text-align: justify;
+}
+#h3{
+  /*h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }*/
+    display: inline;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.imagen{
+    width: 35vw;
+    height: 55vh;
+    border-radius: 50% 50% 50% 50%;
+    line-gap-override: 5vw;
+}
+.txt{
+    margin-right: 10vw;
+}
+
+
+h1{
+    color: rgba(22, 242, 246, 0.99);
+    font-size: 3vw;
+}
+
+/* Eliminar el comportamiento en bloque en línea*/
+.header-linea{
+    display: inline-block;
+    padding-right: 10vw;
+    padding-top: 2.5vh;
+}
+
+/* Estilo para el logo*/
+.logo{
+    width: 10vw;
+    height: auto;
+    border-radius: 0% 0% 50% 50%;
+    box-shadow:  0.1vw 0.1vw 0.1vw 0v.1vw color rgba(255, 0, 255, 0.062);
+   
+}
+
+/*Aplicar estilos en el encabezado header: 
+*Color de fondo, altura, borde tamaño de fuente, alinear texto, color de fondo */
+header{
+    background: linear-gradient(to left, rgba(35, 34, 34, 0.158), color black);
+    /*height: 10vh;*/ /*Altura*/
+    font-size: 2vw; /*Tamaño del Texto*/
+    text-align: end; /*Alinear el texto*/
+    border-radius: 0% 0% 50% 50%; /*redondea un vértice del logo*/
+    /*Si quiero que el encabezado baje mientras bajo la hoja no me sirve para one-page  
+    position: fixed; */
+    /* Agregar las propiedades: display, justify-content y alingn-items*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* MENU*/
+/* En los hipervinculos del nav eliminar la decoracion del texto, color, agregar separación entre hipervinculo*/
+.menu{
+    text-decoration: none;
+    color: black;
+    padding-right: 2vw;
+}
+
+#quiensoy{
+    padding-top: 10vh;
+    
+}
+#s2{
+    background-color: darkgrey;
+    margin: 5vw 5vh 5vw 5vh;
+}
+
+.parrafo{
+    padding: 5%;
+    font-size: 1.5vw;
+    margin-top: 3vh; 
+    margin-bottom: 20px;
+    /*font-size: 1.5vh*/ /* responsive siempre toma la última y esta sería mov. abajo -arriba siempre ref. tamaño de pantalla*/
+}
+.container-s3 img{
+    width: 15vw;
+    height: 20vh;
+    
+}
+
+
+footer{
+    background-color: rgba(0,0,0,0.8);
+    height: 18vh;
+    text-align: center;
+    color: aliceblue;
+}
+
+.texto-pie{
+    padding-top: 4vh;
+}
+
+.s1{
+    padding-top: 10vh;
+}
+.linea{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+@media screen and (max-width:600px) *{
+    
+}
+    
+/* Contacto y Contact */
+#contact {
+    height: 100%;
+    display: flex;
+  }
+  
+  #contact .box-contact-features {
+    float: none;
+    width: 100%;
+  }
+  
+  #contact .features-contact .box-form{
+    float: none;
+    width: 100%;
+  }
+  /* Contact */
+#contact {
+    height: 12vh;
+    padding-top: 5vh; 
+    padding-bottom: 10vw; 
+  }
+  
+  #contact .box-contact-features {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+  }
+  
+  #contact .box-contact-features i {
+    padding-bottom: 20px;
+  }
+  
+  #contact .box-contact-features p {
+    line-height: .8em;
+  }
+  
+  #contact .features-contact .box-form{
+    float: left;
+    width: 50%;
+    padding: 60px 10px 20px 10px;
+  }
+  
+  #contact .features-contact .box-form iframe{
+    width: 100%;
+    height: 400px;
+  }
+  #contact {
+    height: 100%;
+    display: flex;
+  }
+  
+  #contact .box-contact-features {
+    float: none;
+    width: 100%;
+  }
+  
+  #contact .features-contact .box-form{
+    float: none;
+    width: 100%;
+  }
+
+  #contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30vw;
+    margin-top: 5vh; 
+    margin-bottom: 5vh;
+  }
+  
+ 
+  
+  
